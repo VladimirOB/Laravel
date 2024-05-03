@@ -18,5 +18,9 @@ class DatabaseSeeder extends Seeder
         //     'name' => 'Test User',
         //     'email' => 'test@example.com',
         // ]);
+
+        // мы можем просто запустить $ php artisan db:seed и он запустит все вызванные классы здесь
+        //$this->call(ArticlesTableSeeder::class);
+        //$this->call(UsersTableSeeder::class);
     }
 }

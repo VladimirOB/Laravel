@@ -1,0 +1,4 @@
+php artisan make:model Article -m
+-m вариант — сокращение от --migrationи он сообщает Artisan создать его для нашей модели.
+
+add faker and migration
